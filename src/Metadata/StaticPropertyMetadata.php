@@ -15,9 +15,8 @@ class StaticPropertyMetadata extends PropertyMetadata
      * StaticPropertyMetadata constructor.
      *
      * @param mixed $fieldValue
-     * @param array $groups
      */
-    public function __construct(string $className, string $fieldName, $fieldValue, array $groups = [])
+    public function __construct(string $className, $fieldName, $fieldValue, array $groups = [])
     {
         $this->class = $className;
         $this->name = $fieldName;
